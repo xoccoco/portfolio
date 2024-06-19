@@ -28,6 +28,7 @@
 
 .lista {
     display: flex;
+
     border-top: 0;
     border-left: 2px solid #333;
     border-bottom: 0;
@@ -55,6 +56,7 @@ ul {
     flex-direction: column;
     justify-content: flex-end;
     gap: 0.8em;
+    margin-top: 200px;
 }
 
 ul li {

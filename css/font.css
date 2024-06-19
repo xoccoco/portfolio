@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "calson";
+    src: url(../font/calson.woff2)format(woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "calson_bold";
+    src: url(../font/calsonB.woff2)format(woff2);
+    font-weight: 700;
+    font-size: normal;
+}
+

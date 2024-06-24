@@ -33,7 +33,7 @@
     .lista {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
     
         border-top: 0;
         border-left: 1px solid #333;

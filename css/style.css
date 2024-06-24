@@ -258,12 +258,12 @@ p {
 
 .about_izq_ch ul {
     display: flex;
-    flex-direction: column;
+    
     gap: 5px;
 
 }
 
-.about_izq_ch ul li {
+.perfil li {
 
     list-style: none inside;
     padding: 3px;
@@ -278,9 +278,9 @@ p {
     color: #666;
 }
 
-.idioma ul {
+.idioma ul  {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .list_label_idioma {

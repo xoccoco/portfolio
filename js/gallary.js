@@ -67,6 +67,7 @@ btnFolleto.addEventListener("click", () =>{
 
 let btnWSb = document.getElementById("ws_b");
 let btnWSsp = document.getElementById("ws_sp");
+let btnWSskin = document.getElementById("ws_skin");
 let btnWSnico = document.getElementById("ws_nico");
 let btnWSnz = document.getElementById("ws_nz");
 let btnLogoG = document.getElementById("logo_g");
@@ -84,6 +85,7 @@ let btnFaida = document.getElementById("f_aida");
 
 let imageWSb = document.getElementById("image_ws_b");
 let imageWSsp = document.getElementById("image_ws_sp");
+let imageWSskin = document.getElementById("image_ws_skin");
 let imageWSnico = document.getElementById("image_ws_nico");
 let imageWSnz = document.getElementById("image_ws_nz");
 let imageLogo1 = document.getElementById("image_logo1");
@@ -101,6 +103,7 @@ window.onload = function(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -121,6 +124,7 @@ function showWSb(){
 
     imageWSb.style.opacity = 1;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -143,6 +147,7 @@ function showWSsp(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 1;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -160,10 +165,33 @@ function showWSsp(){
 
 btnWSsp.addEventListener("click", showWSsp)
 
+function showWSskin(){
+
+    imageWSb.style.opacity = 0;
+    imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 1;
+    imageWSnico.style.opacity = 0;
+    imageWSnz.style.opacity = 0;
+    imageLogo1.style.opacity = 0;
+    imageLogo2.style.opacity = 0;
+    imageExpo1.style.opacity = 0;
+    imageExpo2.style.opacity = 0;
+    imageExpo3.style.opacity = 0;
+    imagePapelM.style.opacity = 0;
+    imageCDb.style.opacity = 0;
+    imageFtrisnow.style.opacity = 0;
+    imageFaida.style.opacity = 0;
+
+
+};
+
+btnWSskin.addEventListener("click", showWSskin)
+
 function showWSnico(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 1;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -185,6 +213,7 @@ function showWSnz(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 1;
     imageLogo1.style.opacity = 0;
@@ -208,6 +237,7 @@ function showLogo1(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 1;
@@ -229,6 +259,7 @@ function showLogo2(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -252,6 +283,7 @@ function showExpo1(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -274,6 +306,7 @@ function showExpo2(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -296,6 +329,7 @@ function showExpo3(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -318,6 +352,7 @@ function showPapelM(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -339,6 +374,7 @@ function showCDb(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -360,6 +396,7 @@ function showFtrisnow(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;
@@ -382,6 +419,7 @@ function showFaida(){
 
     imageWSb.style.opacity = 0;
     imageWSsp.style.opacity = 0;
+    imageWSskin.style.opacity = 0;
     imageWSnico.style.opacity = 0;
     imageWSnz.style.opacity = 0;
     imageLogo1.style.opacity = 0;

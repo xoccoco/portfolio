@@ -577,9 +577,14 @@ footer{
     gap: 20px;
 }
 
+.content_image_l{
+    position: absolute;
+    gap: 20px;
+}
+
 .content_image_w img{
 
-    width: 35vw;
+    width: 38vw;
     margin-bottom: 50px;
     border:#666 1px solid
 }
@@ -591,11 +596,15 @@ footer{
 }
 
 .content_image img{
-    
+    width: 42vw;
     margin-bottom: 20px;
 }
 
 
+.content_image_l img{
+    width: 28vw;
+    margin-bottom: 20px;
+}
 
 
 

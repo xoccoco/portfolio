@@ -484,6 +484,7 @@ footer{
     transition: 200ms;
     color:#000;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 
@@ -518,6 +519,7 @@ footer{
     font-size: 14px;
     transition: 200ms;
     color:#000;
+    text-align: left;
 }
 
 
@@ -554,7 +556,7 @@ footer{
     display: flex;
     position: relative;
 
-    margin-left: 50px;
+    margin-left: 5vw;
 
     border-left: 1px black solid;
 
@@ -577,13 +579,15 @@ footer{
 
 .content_image_w img{
 
-    width: 500px;
+    width: 35vw;
     margin-bottom: 50px;
     border:#666 1px solid
 }
 
+
+
 .content_image_m img{
-    width: 650px;
+    width: 42vw;
     border:#666 1px solid
 }
 

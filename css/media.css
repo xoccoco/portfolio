@@ -1,4 +1,4 @@
-@media screen and (min-width:360px) and (max-width:760px) {
+@media screen and (min-width:320px) and (max-width:760px) {
 
     :root {
         --color-primario: #000;
@@ -18,7 +18,7 @@
     
     .contenedor {
     
-        margin: 0 10vw;
+        margin: 0 5vw;
     
         display: flex;
     
@@ -74,7 +74,7 @@
     
         font-family: var(--tipo-titulo);
         font-weight: 500;
-        font-size: 6vw;
+        font-size: 8vw;
         color: #000;
     
         margin-right: 1em;
@@ -86,7 +86,7 @@
     .fins {
         font-family: var(--tipo-titulo);
         font-weight: 500;
-        font-size: 2vw;
+        font-size: 4vw;
         color: #000;
     
         margin-right: 1em;
@@ -106,7 +106,7 @@
         flex-direction: column;
     
         font-family: var(--tipo-titulo);
-        font-size: 18px;
+        font-size: 8vw;
     }
     
     .menu_list li {
@@ -455,7 +455,7 @@
    
     font-family: var(--tipo-primaria);
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 7px;
 }
 
 
@@ -495,12 +495,15 @@
     color:#000;
     margin-bottom: 10px;
     text-align: left;
+
+        font-size: 1.1rem;
 }
 
 
 .btn2:link {
 
     color:#000;
+
 
 }
 
@@ -567,10 +570,12 @@
     display: flex;
     position: relative;
 
-    margin-left: 5vw;
+    margin-left: 10vw;
 
-    border-left: 1px black solid;
+    width: 75%;
 
+
+    
 }
 
 .content_image{
